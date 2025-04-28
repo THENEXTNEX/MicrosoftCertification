@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GGPC\\Documents\\GitHub\\MicrosoftCSharp\\Module2\\Module2.csproj",
+      "projectUniqueName": "C:\\Users\\GGPC\\Documents\\GitHub\\MicrosoftCertification\\Module2\\Module2.csproj",
       "projectName": "Module2",
-      "projectPath": "C:\\Users\\GGPC\\Documents\\GitHub\\MicrosoftCSharp\\Module2\\Module2.csproj",
+      "projectPath": "C:\\Users\\GGPC\\Documents\\GitHub\\MicrosoftCertification\\Module2\\Module2.csproj",
       "packagesPath": "C:\\Users\\GGPC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GGPC\\Documents\\GitHub\\MicrosoftCSharp\\Module2\\obj\\",
+      "outputPath": "C:\\Users\\GGPC\\Documents\\GitHub\\MicrosoftCertification\\Module2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\GGPC\\AppData\\Roaming\\NuGet\\NuGet.Config"
