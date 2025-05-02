@@ -1,5 +1,6 @@
 // the ourAnimals array will store the following: 
 using System.Globalization;
+using System.Linq.Expressions;
 
 string animalSpecies = "";
 string animalID = "";
@@ -269,14 +270,94 @@ do
 
         case "3":
             //Ensure animal age and physical descriptions are complete
-            Console.WriteLine("Challenge Project - please check back soon to see progress.");
+            int petAgeCase3;
+            for (int i = 0; i < maxPets; i++)
+            {
+                bool validEntryCaseThree = false;
+                if (ourAnimals[i, 2] == "Age: ?")
+                {
+                    do
+                    {
+                        Console.WriteLine($"Enter an age for {ourAnimals[i, 0]}");
+                        readResult = Console.ReadLine();
+                        if (readResult != null)
+                        {
+                            animalAge = readResult;
+                            validEntryCaseThree = int.TryParse(animalAge, out petAgeCase3);
+                            Console.WriteLine($"Pet age of {animalAge} has been accepted for {ourAnimals[i, 0]}");
+                        }
+                    } while (validEntryCaseThree == false);
+                }
+
+                validEntryCaseThree = false;
+
+                if (ourAnimals[i, 4] == "Physical description: " && ourAnimals[i, 0] != "ID #: ")
+                {
+                    do
+                    {
+                        Console.WriteLine($"Enter a physical description for {ourAnimals[i, 0]} (size, color, breed, gender, weight, housebroken)");
+                        readResult = Console.ReadLine();
+
+                        if (readResult != null)
+                        {
+                            if (readResult == "")
+                            {
+                                validEntryCaseThree = false;
+                            }
+                            else
+                            {
+                                animalPersonalityDescription = readResult.ToLower();
+                                validEntryCaseThree = true;
+                            }
+                        }
+
+                    } while (validEntryCaseThree == false);
+                }
+            }
+
+            Console.WriteLine("Age and physical description fields are complete for all of our friends");
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
             break;
 
         case "4":
             //Ensure Animal nickname and personailty descriptions are complete
-            Console.WriteLine("Challenge Project - please check back soon to see progress.");
+            for (int i = 0; i < maxPets; i++){
+                if (ourAnimals[i, 3] == "Nickname: " && ourAnimals[i, 0] != "ID #: "){
+                    bool validEntryCaseFour = false;
+                    do{
+                        Console.WriteLine($"Enter a nickname for {ourAnimals[i, 0]}");
+                        readResult = Console.ReadLine();
+                        if (readResult != null){
+                            if (readResult == ""){
+                                validEntryCaseFour = false;
+                            }
+                            else{
+                                animalNickname = readResult.ToLower();
+                                validEntryCaseFour = true;
+                            }
+                        }
+                    } while (validEntryCaseFour == false);
+
+                }
+                if(ourAnimals[i, 5] == "Personality: " && ourAnimals[i, 0] != "ID #: "){
+                    bool validEntryCaseFour = false;
+                    do{
+                        Console.WriteLine($"Enter a personality description for {ourAnimals[i,0]} (likes or dislikes, tricks, energy level)");
+                        readResult = Console.ReadLine();
+                        if(readResult != null){
+                            if (readResult == ""){
+                                validEntryCaseFour = false;
+                            }
+                            else{
+                                animalPersonalityDescription = readResult.ToLower();
+                                validEntryCaseFour = true;
+                            }
+                        }
+                    }while(validEntryCaseFour == false);
+                }
+            }
+            Console.WriteLine("Nickname and personality description fields are complete for all of our friends");
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
             break;
