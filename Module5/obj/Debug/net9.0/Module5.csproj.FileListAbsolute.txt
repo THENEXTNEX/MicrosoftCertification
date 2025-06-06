@@ -1,0 +1,15 @@
+C:\Users\GGPC\Documents\GitHub\MicrosoftCertification\Module5\bin\Debug\net9.0\Module5.exe
+C:\Users\GGPC\Documents\GitHub\MicrosoftCertification\Module5\bin\Debug\net9.0\Module5.deps.json
+C:\Users\GGPC\Documents\GitHub\MicrosoftCertification\Module5\bin\Debug\net9.0\Module5.runtimeconfig.json
+C:\Users\GGPC\Documents\GitHub\MicrosoftCertification\Module5\bin\Debug\net9.0\Module5.dll
+C:\Users\GGPC\Documents\GitHub\MicrosoftCertification\Module5\bin\Debug\net9.0\Module5.pdb
+C:\Users\GGPC\Documents\GitHub\MicrosoftCertification\Module5\obj\Debug\net9.0\Module5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GGPC\Documents\GitHub\MicrosoftCertification\Module5\obj\Debug\net9.0\Module5.AssemblyInfoInputs.cache
+C:\Users\GGPC\Documents\GitHub\MicrosoftCertification\Module5\obj\Debug\net9.0\Module5.AssemblyInfo.cs
+C:\Users\GGPC\Documents\GitHub\MicrosoftCertification\Module5\obj\Debug\net9.0\Module5.csproj.CoreCompileInputs.cache
+C:\Users\GGPC\Documents\GitHub\MicrosoftCertification\Module5\obj\Debug\net9.0\Module5.sourcelink.json
+C:\Users\GGPC\Documents\GitHub\MicrosoftCertification\Module5\obj\Debug\net9.0\Module5.dll
+C:\Users\GGPC\Documents\GitHub\MicrosoftCertification\Module5\obj\Debug\net9.0\refint\Module5.dll
+C:\Users\GGPC\Documents\GitHub\MicrosoftCertification\Module5\obj\Debug\net9.0\Module5.pdb
+C:\Users\GGPC\Documents\GitHub\MicrosoftCertification\Module5\obj\Debug\net9.0\Module5.genruntimeconfig.cache
+C:\Users\GGPC\Documents\GitHub\MicrosoftCertification\Module5\obj\Debug\net9.0\ref\Module5.dll
